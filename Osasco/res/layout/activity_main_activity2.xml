@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oz2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity2" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sobre Osasco..."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:text="Osasco é um município brasileiro localizado na Região Metropolitana de São Paulo, no estado de São Paulo. Nascido como um bairro da capital paulista no final do século XIX, tornou-se município emancipado após um plebiscito em 1962."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:text="Possui importante atividade econômica nos setores industrial, comercial e de serviços. Com 696 850 habitantes, é o 7° mais populoso do estado de São Paulo, segundo estimativa populacional calculado pelo IBGE para 2018. Conforme o último censo do IBGE (2010), Osasco possuía o 8º maior Produto Interno Bruto do Brasil e o 2º maior do Estado de São Paulo, ficando à frente de muitas capitais estaduais brasileiras, como Salvador, Fortaleza e Recife, sendo a cidade não capital com o mais alto PIB da nação naquele ano."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:text="O lema da cidade é Urbs labor, frase latina que significa Cidade trabalho, e seu padroeiro é Santo Antônio, sendo 13 de junho (data comemorativa do santo) feriado municipal."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnvoltar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voltar" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
